@@ -1,0 +1,16 @@
+extra
+__version__
+fdv
+fh_branch
+os
+ref_file_path
+fh_config
+scriptdir
+version_info
+gitdir
+__all__
+branch_name
+fh_head
+io_open
+ref_file
+commit_hash

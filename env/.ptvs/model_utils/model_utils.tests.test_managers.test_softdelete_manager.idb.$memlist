@@ -1,0 +1,4 @@
+CustomSoftDeleteManagerTests
+unicode_literals
+TestCase
+CustomSoftDelete

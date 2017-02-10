@@ -1,0 +1,126 @@
+{% extends "app/layout.html" %}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-md-4">
+            <img alt="coatofarms" src="{% static 'app/content/CoatOfArms_Irish.gif' %}" width="75%" />
+        </div>
+        <div class="col-md-8">
+            <h1>Humphries Family Reunion 2017</h1>
+            <p class="lead">Our family is huge, and spread across the globe - let's all come home for a party!</p>
+            <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">RSVP here &raquo;</button>
+                        
+        </div>
+
+
+    </div>
+    
+</div>
+
+<div class="row">
+     <div class="col-md-4">
+         <h2>Where are we going?</h2>
+        <div id="map"></div></br>
+         <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal2">Click here for directions &raquo;</button>
+     </div>
+    <div class="col-md-4">
+        <h2>When are we meeting?</h2>
+        <p>July 28th - July 31st, 2017</p>
+        <p>Dawn until dark every day!</p>
+
+        <a href="https://en.wikipedia.org/wiki/New-Wes-Valley" class="btn btn-info btn-lg">Information on New Wes Valley</a>
+
+
+    </div>
+    <div class="col-md-4">
+        <h2>Who's going to be there? </h2>
+        <p>This is a list of people who have RSVP'd to date</p>
+        <div id="rsvplist">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <td>First</td>
+                        <td>Last</td>
+                        <td>City</td>
+                        <td>Mom</td>
+                        <td>Dad</td>
+                    </tr>
+                </thead>
+                {% for x in people %}
+                <tr>
+                    <td>{{x.first}}</td>                    
+                    <td>{{x.family}}</td>
+                    <td>{{x.city}}</td>
+                    <td>{{x.birth_mother.first}}</td>
+                    <td>{{x.birth_father.first}}</td>
+
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Fill in your Information</h4>
+      </div>
+      <div class="modal-body">
+          <div class="row">
+                  
+                {% crispy Moms %}                           
+          </div>
+        
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Directions!</h4>
+      </div>
+      <div class="modal-body">
+          <div class="row">
+              <div class="col-md-12">
+                  <p> Getting here is easy!</p>
+                  <p>When you land in St. John's, head to the outer ring road by driving south on Torbay road.  Once there, head West on the Trans Canada Highway.... keep heading west...
+                  don't stop heading west... (you're actually going NorthWest).. Take the turnoff for Gambo (about 3 hours outside of st. john's)... about an hour along that road, you'll 
+                  get to the turn off for the valleyfield section of New Wes Valley!</p>
+
+              </div>
+          </div>
+        
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCK2jqf5jE8Btp7XpbkZU2YhvHAD3ohvCQ&callback=initMap">
+    </script>
+{% endblock %}

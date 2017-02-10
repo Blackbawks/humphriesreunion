@@ -1,0 +1,8 @@
+grp_render_dashboard_module
+template
+register
+tag_func
+get_admin_site_name
+get_index_dashboard
+grp_render_dashboard
+reverse

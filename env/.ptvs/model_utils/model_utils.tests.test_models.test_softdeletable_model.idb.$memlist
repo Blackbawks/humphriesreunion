@@ -1,0 +1,5 @@
+SoftDeletableModelTests
+SoftDeletable
+unicode_literals
+TestCase
+ConnectionDoesNotExist

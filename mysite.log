@@ -1,0 +1,373 @@
+[10/Feb/2017 17:57:54] DEBUG [django.db.backends:90] (0.006) 
+            SELECT c.relname, c.relkind
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid); args=None
+[10/Feb/2017 17:57:54] DEBUG [django.db.backends:90] (0.002) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[10/Feb/2017 17:57:56] DEBUG [django.db.backends:90] (0.004) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'jow5adkdamue34jh69060brvbem54pnx' AND "django_session"."expire_date" > '2017-02-10T17:57:56.798000+00:00'::timestamptz); args=('jow5adkdamue34jh69060brvbem54pnx', datetime.datetime(2017, 2, 10, 17, 57, 56, 798000, tzinfo=<UTC>))
+[10/Feb/2017 17:57:56] DEBUG [django.db.backends:90] (0.003) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+[10/Feb/2017 17:57:57] DEBUG [django.db.backends:90] (0.535) SELECT "cities_city"."id", "cities_city"."name", "cities_city"."lat", "cities_city"."long", "cities_city"."code", "cities_city"."region_province", "cities_city"."population" FROM "cities_city"; args=()
+[10/Feb/2017 17:58:07] DEBUG [django.db.backends:90] (0.005) SELECT "cities_country"."name", "cities_country"."slug", "cities_country"."code", "cities_country"."code3", "cities_country"."population", "cities_country"."area", "cities_country"."currency", "cities_country"."currency_name", "cities_country"."language_codes", "cities_country"."phone", "cities_country"."tld", "cities_country"."capital", "cities_country"."continent" FROM "cities_country"; args=()
+[10/Feb/2017 17:58:08] INFO [django.server:131] "GET / HTTP/1.1" 200 5477248
+[10/Feb/2017 18:00:31] DEBUG [django.db.backends:90] (0.003) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'jow5adkdamue34jh69060brvbem54pnx' AND "django_session"."expire_date" > '2017-02-10T18:00:31.059000+00:00'::timestamptz); args=('jow5adkdamue34jh69060brvbem54pnx', datetime.datetime(2017, 2, 10, 18, 0, 31, 59000, tzinfo=<UTC>))
+[10/Feb/2017 18:00:31] DEBUG [django.db.backends:90] (0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+[10/Feb/2017 18:00:31] DEBUG [django.db.backends:90] (0.547) SELECT "cities_city"."id", "cities_city"."name", "cities_city"."lat", "cities_city"."long", "cities_city"."code", "cities_city"."region_province", "cities_city"."population" FROM "cities_city"; args=()
+[10/Feb/2017 18:00:41] DEBUG [django.db.backends:90] (0.004) SELECT "cities_country"."name", "cities_country"."slug", "cities_country"."code", "cities_country"."code3", "cities_country"."population", "cities_country"."area", "cities_country"."currency", "cities_country"."currency_name", "cities_country"."language_codes", "cities_country"."phone", "cities_country"."tld", "cities_country"."capital", "cities_country"."continent" FROM "cities_country"; args=()
+[10/Feb/2017 18:00:43] INFO [django.server:131] "POST / HTTP/1.1" 200 5477248
+[10/Feb/2017 18:04:17] DEBUG [django.db.backends:90] (0.005) 
+            SELECT c.relname, c.relkind
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid); args=None
+[10/Feb/2017 18:04:17] DEBUG [django.db.backends:90] (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[10/Feb/2017 18:04:27] DEBUG [django.db.backends:90] (0.005) 
+            SELECT c.relname, c.relkind
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid); args=None
+[10/Feb/2017 18:04:27] DEBUG [django.db.backends:90] (0.002) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[10/Feb/2017 18:04:41] DEBUG [django.db.backends:90] (0.006) 
+            SELECT c.relname, c.relkind
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid); args=None
+[10/Feb/2017 18:04:41] DEBUG [django.db.backends:90] (0.002) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[10/Feb/2017 18:04:44] DEBUG [django.db.backends:90] (0.007) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'jow5adkdamue34jh69060brvbem54pnx' AND "django_session"."expire_date" > '2017-02-10T18:04:44.066000+00:00'::timestamptz); args=('jow5adkdamue34jh69060brvbem54pnx', datetime.datetime(2017, 2, 10, 18, 4, 44, 66000, tzinfo=<UTC>))
+[10/Feb/2017 18:04:44] DEBUG [django.db.backends:90] (0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+[10/Feb/2017 18:04:44] DEBUG [django.db.backends:90] (0.561) SELECT "cities_city"."id", "cities_city"."name", "cities_city"."lat", "cities_city"."long", "cities_city"."code", "cities_city"."region_province", "cities_city"."population" FROM "cities_city"; args=()
+[10/Feb/2017 18:04:54] DEBUG [django.db.backends:90] (0.004) SELECT "cities_country"."name", "cities_country"."slug", "cities_country"."code", "cities_country"."code3", "cities_country"."population", "cities_country"."area", "cities_country"."currency", "cities_country"."currency_name", "cities_country"."language_codes", "cities_country"."phone", "cities_country"."tld", "cities_country"."capital", "cities_country"."continent" FROM "cities_country"; args=()
+[10/Feb/2017 18:04:56] INFO [django.server:131] "POST / HTTP/1.1" 200 5477248
+[10/Feb/2017 18:09:36] DEBUG [django.db.backends:90] (0.003) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'jow5adkdamue34jh69060brvbem54pnx' AND "django_session"."expire_date" > '2017-02-10T18:09:36.862000+00:00'::timestamptz); args=('jow5adkdamue34jh69060brvbem54pnx', datetime.datetime(2017, 2, 10, 18, 9, 36, 862000, tzinfo=<UTC>))
+[10/Feb/2017 18:09:36] DEBUG [django.db.backends:90] (0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+[10/Feb/2017 18:09:37] DEBUG [django.db.backends:90] (0.550) SELECT "cities_city"."id", "cities_city"."name", "cities_city"."lat", "cities_city"."long", "cities_city"."code", "cities_city"."region_province", "cities_city"."population" FROM "cities_city"; args=()
+[10/Feb/2017 18:09:47] DEBUG [django.db.backends:90] (0.004) SELECT "cities_country"."name", "cities_country"."slug", "cities_country"."code", "cities_country"."code3", "cities_country"."population", "cities_country"."area", "cities_country"."currency", "cities_country"."currency_name", "cities_country"."language_codes", "cities_country"."phone", "cities_country"."tld", "cities_country"."capital", "cities_country"."continent" FROM "cities_country"; args=()
+[10/Feb/2017 18:09:48] INFO [django.server:131] "GET /static/app/scripts/Extra.js HTTP/1.1" 304 0
+[10/Feb/2017 18:09:48] INFO [django.server:131] "GET /static/app/content/site.css HTTP/1.1" 304 0
+[10/Feb/2017 18:09:48] INFO [django.server:131] "GET /static/app/content/CoatOfArms_Irish.gif HTTP/1.1" 304 0
+[10/Feb/2017 18:09:49] INFO [django.server:131] "POST / HTTP/1.1" 200 5477237
+[10/Feb/2017 18:11:38] DEBUG [django.db.backends:90] (0.004) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'jow5adkdamue34jh69060brvbem54pnx' AND "django_session"."expire_date" > '2017-02-10T18:11:38.404000+00:00'::timestamptz); args=('jow5adkdamue34jh69060brvbem54pnx', datetime.datetime(2017, 2, 10, 18, 11, 38, 404000, tzinfo=<UTC>))
+[10/Feb/2017 18:11:38] DEBUG [django.db.backends:90] (0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+[10/Feb/2017 18:11:39] DEBUG [django.db.backends:90] (0.529) SELECT "cities_city"."id", "cities_city"."name", "cities_city"."lat", "cities_city"."long", "cities_city"."code", "cities_city"."region_province", "cities_city"."population" FROM "cities_city"; args=()
+[10/Feb/2017 18:11:49] DEBUG [django.db.backends:90] (0.004) SELECT "cities_country"."name", "cities_country"."slug", "cities_country"."code", "cities_country"."code3", "cities_country"."population", "cities_country"."area", "cities_country"."currency", "cities_country"."currency_name", "cities_country"."language_codes", "cities_country"."phone", "cities_country"."tld", "cities_country"."capital", "cities_country"."continent" FROM "cities_country"; args=()
+[10/Feb/2017 18:11:51] INFO [django.server:131] "POST / HTTP/1.1" 200 5477237
+[10/Feb/2017 18:15:36] ERROR [django.server:131] "POST / HTTP/1.1" 500 59
+ERROR Internal Server Error: /dbPostother
+Traceback (most recent call last):
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\app\views.py", line 65, in dbPostother
+    form.save()
+AttributeError: 'Information' object has no attribute 'save'
+ERROR "POST /dbPostother HTTP/1.1" 500 78600
+ERROR Internal Server Error: /dbPostother
+Traceback (most recent call last):
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\app\views.py", line 64, in dbPostother
+    if form.is_valid():
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\forms\forms.py", line 169, in is_valid
+    return self.is_bound and not self.errors
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\forms\forms.py", line 161, in errors
+    self.full_clean()
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\forms\forms.py", line 372, in full_clean
+    self._post_clean()
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\forms\models.py", line 393, in _post_clean
+    self.instance = construct_instance(self, self.instance, opts.fields, opts.exclude)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\forms\models.py", line 65, in construct_instance
+    f.save_form_data(instance, cleaned_data[f.name])
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\db\models\fields\__init__.py", line 833, in save_form_data
+    setattr(instance, self.name, data)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 211, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "u'Toronto'": "Fathers.city_of_birth" must be a "CitiesCity" instance.
+ERROR "POST /dbPostother HTTP/1.1" 500 107748
+ERROR Internal Server Error: /dbPostother
+Traceback (most recent call last):
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\app\views.py", line 62, in dbPostother
+    if form.is_valid():
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\forms\forms.py", line 169, in is_valid
+    return self.is_bound and not self.errors
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\forms\forms.py", line 161, in errors
+    self.full_clean()
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\forms\forms.py", line 372, in full_clean
+    self._post_clean()
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\forms\models.py", line 393, in _post_clean
+    self.instance = construct_instance(self, self.instance, opts.fields, opts.exclude)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\forms\models.py", line 65, in construct_instance
+    f.save_form_data(instance, cleaned_data[f.name])
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\db\models\fields\__init__.py", line 833, in save_form_data
+    setattr(instance, self.name, data)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 211, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "u'Galveston'": "Fathers.city_of_birth" must be a "CitiesCity" instance.
+ERROR "POST /dbPostother HTTP/1.1" 500 107703
+ERROR Internal Server Error: /dbPostother
+Traceback (most recent call last):
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\app\views.py", line 63, in dbPostother
+    fath = form.save(commit = False)
+AttributeError: 'Information' object has no attribute 'save'
+ERROR "POST /dbPostother HTTP/1.1" 500 78606
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\app\views.py", line 21, in home
+    form = Information()
+NameError: global name 'Information' is not defined
+ERROR "GET / HTTP/1.1" 500 76233
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\app\views.py", line 21, in home
+    Dads = Dads()
+UnboundLocalError: local variable 'Dads' referenced before assignment
+ERROR "GET / HTTP/1.1" 500 76338
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\app\views.py", line 21, in home
+    Dadsform = Dads()
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\app\forms.py", line 53, in __init__
+    super(Information, self).__init__(*args,**kwargs)
+NameError: global name 'Information' is not defined
+ERROR "GET / HTTP/1.1" 500 80130
+ERROR Internal Server Error: /dbPostother
+Traceback (most recent call last):
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\app\views.py", line 128, in dbPostother
+    print form.errors
+NameError: global name 'form' is not defined
+ERROR "POST /dbPostother HTTP/1.1" 500 79256
+ERROR Internal Server Error: /dbPostother
+Traceback (most recent call last):
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\app\views.py", line 70, in dbPostother
+    fath = dad.save(commit = False)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\forms\models.py", line 448, in save
+    'created' if self.instance._state.adding else 'changed',
+ValueError: The Fathers could not be created because the data didn't validate.
+ERROR "POST /dbPostother HTTP/1.1" 500 83751
+ERROR Internal Server Error: /dbPostother
+Traceback (most recent call last):
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\app\views.py", line 94, in dbPostother
+    moth.country_of_birth = CitiesCountry.objects.get(name = request.POST['moms_country_of_birth'])
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\db\models\query.py", line 385, in get
+    self.model._meta.object_name
+DoesNotExist: CitiesCountry matching query does not exist.
+ERROR "POST /dbPostother HTTP/1.1" 500 88855
+ERROR Internal Server Error: /dbPostother
+Traceback (most recent call last):
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\app\views.py", line 95, in dbPostother
+    moth.country_of_birth = CitiesCountry.objects.get(name = cobname)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\db\models\query.py", line 385, in get
+    self.model._meta.object_name
+DoesNotExist: CitiesCountry matching query does not exist.
+ERROR "POST /dbPostother HTTP/1.1" 500 89005
+ERROR Internal Server Error: /dbPostother
+Traceback (most recent call last):
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\app\views.py", line 98, in dbPostother
+    moth.last = request.POST['momslast']
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'momslast'"
+ERROR "POST /dbPostother HTTP/1.1" 500 84024
+ERROR Internal Server Error: /dbPostother
+Traceback (most recent call last):
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view app.views.dbPostother didn't return an HttpResponse object. It returned None instead.
+ERROR "POST /dbPostother HTTP/1.1" 500 69477
+ERROR Internal Server Error: /dbPostother
+Traceback (most recent call last):
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view app.views.dbPostother didn't return an HttpResponse object. It returned None instead.
+ERROR "POST /dbPostother HTTP/1.1" 500 69477
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\app\views.py", line 23, in home
+    Dadsform = Dads()
+NameError: global name 'Dads' is not defined
+ERROR "GET / HTTP/1.1" 500 76190
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\app\views.py", line 29, in home
+    return render(request, 'app/index.html', context)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\test\utils.py", line 94, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\test\utils.py", line 94, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\crispy_forms\templatetags\crispy_forms_tags.py", line 215, in render
+    c = self.get_render(context)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\crispy_forms\templatetags\crispy_forms_tags.py", line 107, in get_render
+    actual_form = form.resolve(context)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\template\base.py", line 852, in resolve
+    value = self._resolve_lookup(context)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [person] in u"[{'False': False, 'None': None, 'True': True}, {}, {}, {'Moms': <Moms bound=False, valid=Unknown, fields=(maiden;first;middle;city_of_birth;country_of_birth;region_of_birth;year_born;momsfirst;momsmiddle;momsmaiden;momsregion_of_birth;momscity_of_birth;momsyear_of_birth;moms_country_of_birth;dadsfirst;dadsmiddle;dadslast;dadsregion_of_birth;dadscity_of_birth;dadsyear_of_birth;dads_country_of_birth;FirstName;MiddleName;LastName;email;CurCity;CurReg;BirthCity;BirthReg;PlacetoStay;YearBorn;country)>, 'year': 2017}]"
+ERROR "GET / HTTP/1.1" 500 179257
+ERROR Internal Server Error: /dbPostother
+Traceback (most recent call last):
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\app\views.py", line 111, in dbPostother
+    post.country = CitiesCountry.objects.get(name = request.POST.get("country",""))
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Dropbox\Websites\HumphriesReunion\HumphriesReunion\env\lib\site-packages\django\db\models\query.py", line 385, in get
+    self.model._meta.object_name
+DoesNotExist: CitiesCountry matching query does not exist.
+ERROR "POST /dbPostother HTTP/1.1" 500 91485

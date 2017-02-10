@@ -1,0 +1,6 @@
+absolute_import
+CustomSoftDeleteQuerySet
+CustomSoftDeleteManager
+unicode_literals
+SoftDeletableManager
+SoftDeletableQuerySet

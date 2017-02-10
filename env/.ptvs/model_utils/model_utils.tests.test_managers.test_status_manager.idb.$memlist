@@ -1,0 +1,8 @@
+StatusModel
+StatusManagerAdded
+unicode_literals
+QueryManager
+StatusManagerAddedTests
+models
+TestCase
+ImproperlyConfigured

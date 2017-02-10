@@ -1,0 +1,16 @@
+models
+unicode_literals
+django
+InheritanceManagerTestChild2
+InheritanceManagerTestRelated
+InheritanceManagerUsingModelsTests
+InheritanceManagerTestGrandChild1_2
+TimeFrame
+InheritanceManagerTests
+InheritanceManagerTestChild3
+InheritanceManagerRelatedTests
+InheritanceManagerTestChild1
+TestCase
+InheritanceManagerTestParent
+InheritanceManagerTestGrandChild1
+skipUnless

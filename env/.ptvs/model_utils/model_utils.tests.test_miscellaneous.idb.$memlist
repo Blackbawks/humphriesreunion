@@ -1,0 +1,13 @@
+MigrationsTests
+introspector
+Article
+TestCase
+unicode_literals
+django
+call_command
+skipUnless
+GetExcerptTests
+StatusFieldDefaultFilled
+get_excerpt
+FieldDoesNotExist
+SouthFreezingTests

@@ -1,0 +1,251 @@
+name,slug,code,code3,population,area,currency,currency_name,language_codes,phone,tld,capital,continent_id
+Rwanda,Rwanda,RW,RWA,11055976,26338,RWF,Franc,"rw,en-RW,fr-RW,sw",250,rw,Kigali,6255146
+Somalia,Somalia,SO,SOM,10112453,637657,SOS,Shilling,"so-SO,ar-SO,it,en-SO",252,so,Mogadishu,6255146
+Yemen,Yemen,YE,YEM,23495361,527970,YER,Rial,ar-YE,967,ye,Sanaa,6255147
+Iraq,Iraq,IQ,IRQ,29671605,437072,IQD,Dinar,"ar-IQ,ku,hy",964,iq,Baghdad,6255147
+Saudi Arabia,Saudi-Arabia,SA,SAU,25731776,1960582,SAR,Rial,ar-SA,966,sa,Riyadh,6255147
+Iran,Iran,IR,IRN,76923300,1648000,IRR,Rial,"fa-IR,ku",98,ir,Tehran,6255147
+Cyprus,Cyprus,CY,CYP,1102677,9250,EUR,Euro,"el-CY,tr-CY,en",357,cy,Nicosia,6255148
+Tanzania,Tanzania,TZ,TZA,41892895,945087,TZS,Shilling,"sw-TZ,en,ar",255,tz,Dodoma,6255146
+Syria,Syria,SY,SYR,22198110,185180,SYP,Pound,"ar-SY,ku,hy,arc,fr,en",963,sy,Damascus,6255147
+Armenia,Armenia,AM,ARM,2968000,29800,AMD,Dram,hy,374,am,Yerevan,6255147
+Kenya,Kenya,KE,KEN,40046566,582650,KES,Shilling,"en-KE,sw-KE",254,ke,Nairobi,6255146
+Democratic Republic of the Congo,Democratic-Republic-of-the-Congo,CD,COD,70916439,2345410,CDF,Franc,"fr-CD,ln,kg",243,cd,Kinshasa,6255146
+Djibouti,Djibouti,DJ,DJI,740528,23000,DJF,Franc,"fr-DJ,ar,so-DJ,aa",253,dj,Djibouti,6255146
+Uganda,Uganda,UG,UGA,33398682,236040,UGX,Shilling,"en-UG,lg,sw,ar",256,ug,Kampala,6255146
+Central African Republic,Central-African-Republic,CF,CAF,4844927,622984,XAF,Franc,"fr-CF,sg,ln,kg",236,cf,Bangui,6255146
+Seychelles,Seychelles,SC,SYC,88340,455,SCR,Rupee,"en-SC,fr-SC",248,sc,Victoria,6255146
+Jordan,Jordan,JO,JOR,6407085,92300,JOD,Dinar,"ar-JO,en",962,jo,Amman,6255147
+Lebanon,Lebanon,LB,LBN,4125247,10400,LBP,Pound,"ar-LB,fr-LB,en,hy",961,lb,Beirut,6255147
+Kuwait,Kuwait,KW,KWT,2789132,17820,KWD,Dinar,"ar-KW,en",965,kw,Kuwait City,6255147
+Oman,Oman,OM,OMN,2967717,212460,OMR,Rial,"ar-OM,en,bal,ur",968,om,Muscat,6255147
+Qatar,Qatar,QA,QAT,840926,11437,QAR,Rial,"ar-QA,es",974,qa,Doha,6255147
+Bahrain,Bahrain,BH,BHR,738004,665,BHD,Dinar,"ar-BH,en,fa,ur",973,bh,Manama,6255147
+United Arab Emirates,United-Arab-Emirates,AE,ARE,4975593,82880,AED,Dirham,"ar-AE,fa,en,hi,ur",971,ae,Abu Dhabi,6255147
+Israel,Israel,IL,ISR,7353985,20770,ILS,Shekel,"he,ar-IL,en-IL,",972,il,Jerusalem,6255147
+Turkey,Turkey,TR,TUR,77804122,780580,TRY,Lira,"tr-TR,ku,diq,az,av",90,tr,Ankara,6255147
+Ethiopia,Ethiopia,ET,ETH,88013491,1127127,ETB,Birr,"am,en-ET,om-ET,ti-ET,so-ET,sid",251,et,Addis Ababa,6255146
+Eritrea,Eritrea,ER,ERI,5792984,121320,ERN,Nakfa,"aa-ER,ar,tig,kun,ti-ER",291,er,Asmara,6255146
+Egypt,Egypt,EG,EGY,80471869,1001450,EGP,Pound,"ar-EG,en,fr",20,eg,Cairo,6255146
+Sudan,Sudan,SD,SDN,35000000,1861484,SDG,Pound,"ar-SD,en,fia",249,sd,Khartoum,6255146
+Greece,Greece,GR,GRC,11000000,131940,EUR,Euro,"el-GR,en,fr",30,gr,Athens,6255148
+Burundi,Burundi,BI,BDI,9863117,27830,BIF,Franc,"fr-BI,rn",257,bi,Bujumbura,6255146
+Estonia,Estonia,EE,EST,1291170,45226,EUR,Euro,"et,ru",372,ee,Tallinn,6255148
+Latvia,Latvia,LV,LVA,2217969,64589,EUR,Euro,"lv,ru,lt",371,lv,Riga,6255148
+Azerbaijan,Azerbaijan,AZ,AZE,8303512,86600,AZN,Manat,"az,ru,hy",994,az,Baku,6255147
+Lithuania,Lithuania,LT,LTU,2944459,65200,EUR,Euro,"lt,ru,pl",370,lt,Vilnius,6255148
+Svalbard and Jan Mayen,Svalbard-and-Jan-Mayen,SJ,SJM,2550,62049,NOK,Krone,"no,ru",47,sj,Longyearbyen,6255148
+Georgia,Georgia,GE,GEO,4630000,69700,GEL,Lari,"ka,ru,hy,az",995,ge,Tbilisi,6255147
+Moldova,Moldova,MD,MDA,4324000,33843,MDL,Leu,"ro,ru,gag,tr",373,md,Chisinau,6255148
+Belarus,Belarus,BY,BLR,9685000,207600,BYR,Ruble,"be,ru",375,by,Minsk,6255148
+Finland,Finland,FI,FIN,5244000,337030,EUR,Euro,"fi-FI,sv-FI,smn",358,fi,Helsinki,6255148
+Aland Islands,Aland-Islands,AX,ALA,26711,1580,EUR,Euro,sv-AX,340,ax,Mariehamn,6255148
+Ukraine,Ukraine,UA,UKR,45415596,603700,UAH,Hryvnia,"uk,ru-UA,rom,pl,hu",380,ua,Kiev,6255148
+Macedonia,Macedonia,MK,MKD,2062294,25333,MKD,Denar,"mk,sq,tr,rmm,sr",389,mk,Skopje,6255148
+Hungary,Hungary,HU,HUN,9982000,93030,HUF,Forint,hu-HU,36,hu,Budapest,6255148
+Bulgaria,Bulgaria,BG,BGR,7148785,110910,BGN,Lev,"bg,tr-BG,rom",359,bg,Sofia,6255148
+Albania,Albania,AL,ALB,2986952,28748,ALL,Lek,"sq,el",355,al,Tirana,6255148
+Poland,Poland,PL,POL,38500000,312685,PLN,Zloty,pl,48,pl,Warsaw,6255148
+Romania,Romania,RO,ROU,21959278,237500,RON,Leu,"ro,hu,rom",40,ro,Bucharest,6255148
+Kosovo,Kosovo,XK,XKX,1800000,10908,EUR,Euro,"sq,sr",'','',Pristina,6255148
+Zimbabwe,Zimbabwe,ZW,ZWE,13061000,390580,ZWL,Dollar,"en-ZW,sn,nr,nd",263,zw,Harare,6255146
+Zambia,Zambia,ZM,ZMB,13460305,752614,ZMW,Kwacha,"en-ZM,bem,loz,lun,lue,ny,toi",260,zm,Lusaka,6255146
+Comoros,Comoros,KM,COM,773407,2170,KMF,Franc,"ar,fr-KM",269,km,Moroni,6255146
+Malawi,Malawi,MW,MWI,15447500,118480,MWK,Kwacha,"ny,yao,tum,swk",265,mw,Lilongwe,6255146
+Lesotho,Lesotho,LS,LSO,1919552,30355,LSL,Loti,"en-LS,st,zu,xh",266,ls,Maseru,6255146
+Botswana,Botswana,BW,BWA,2029307,600370,BWP,Pula,"en-BW,tn-BW",267,bw,Gaborone,6255146
+Mauritius,Mauritius,MU,MUS,1294104,2040,MUR,Rupee,"en-MU,bho,fr",230,mu,Port Louis,6255146
+Swaziland,Swaziland,SZ,SWZ,1354051,17363,SZL,Lilangeni,"en-SZ,ss-SZ",268,sz,Mbabane,6255146
+Reunion,Reunion,RE,REU,776948,2517,EUR,Euro,fr-RE,262,re,Saint-Denis,6255146
+South Africa,South-Africa,ZA,ZAF,49000000,1219912,ZAR,Rand,"zu,xh,af,nso,en-ZA,tn,st,ts,ss,ve,nr",27,za,Pretoria,6255146
+Mayotte,Mayotte,YT,MYT,159042,374,EUR,Euro,fr-YT,262,yt,Mamoudzou,6255146
+Mozambique,Mozambique,MZ,MOZ,22061451,801590,MZN,Metical,"pt-MZ,vmw",258,mz,Maputo,6255146
+Madagascar,Madagascar,MG,MDG,21281844,587040,MGA,Ariary,"fr-MG,mg",261,mg,Antananarivo,6255146
+Afghanistan,Afghanistan,AF,AFG,29121286,647500,AFN,Afghani,"fa-AF,ps,uz-AF,tk",93,af,Kabul,6255147
+Pakistan,Pakistan,PK,PAK,184404791,803940,PKR,Rupee,"ur-PK,en-PK,pa,sd,ps,brh",92,pk,Islamabad,6255147
+Bangladesh,Bangladesh,BD,BGD,156118464,144000,BDT,Taka,"bn-BD,en",880,bd,Dhaka,6255147
+Turkmenistan,Turkmenistan,TM,TKM,4940916,488100,TMT,Manat,"tk,ru,uz",993,tm,Ashgabat,6255147
+Tajikistan,Tajikistan,TJ,TJK,7487489,143100,TJS,Somoni,"tg,ru",992,tj,Dushanbe,6255147
+Sri Lanka,Sri-Lanka,LK,LKA,21513990,65610,LKR,Rupee,"si,ta,en",94,lk,Colombo,6255147
+Bhutan,Bhutan,BT,BTN,699847,47000,BTN,Ngultrum,dz,975,bt,Thimphu,6255147
+India,India,IN,IND,1173108018,3287590,INR,Rupee,"en-IN,hi,bn,te,mr,ta,ur,gu,kn,ml,or,pa,as,bh,sat,ks,ne,sd,kok,doi,mni,sit,sa,fr,lus,inc",91,in,New Delhi,6255147
+Maldives,Maldives,MV,MDV,395650,300,MVR,Rufiyaa,"dv,en",960,mv,Male,6255147
+British Indian Ocean Territory,British-Indian-Ocean-Territory,IO,IOT,4000,60,USD,Dollar,en-IO,246,io,Diego Garcia,6255147
+Nepal,Nepal,NP,NPL,28951852,140800,NPR,Rupee,"ne,en",977,np,Kathmandu,6255147
+Myanmar,Myanmar,MM,MMR,53414374,678500,MMK,Kyat,my,95,mm,Nay Pyi Taw,6255147
+Uzbekistan,Uzbekistan,UZ,UZB,27865738,447400,UZS,Som,"uz,ru,tg",998,uz,Tashkent,6255147
+Kazakhstan,Kazakhstan,KZ,KAZ,15340000,2717300,KZT,Tenge,"kk,ru",7,kz,Astana,6255147
+Kyrgyzstan,Kyrgyzstan,KG,KGZ,5776500,198500,KGS,Som,"ky,uz,ru",996,kg,Bishkek,6255147
+French Southern Territories,French-Southern-Territories,TF,ATF,140,7829,EUR,Euro  ,fr,'',tf,Port-aux-Francais,6255152
+Heard Island and McDonald Islands,Heard-Island-and-McDonald-Islands,HM,HMD,0,412,AUD,Dollar,'', ,hm,'',6255152
+Cocos Islands,Cocos-Islands,CC,CCK,628,14,AUD,Dollar,"ms-CC,en",61,cc,West Island,6255147
+Palau,Palau,PW,PLW,19907,458,USD,Dollar,"pau,sov,en-PW,tox,ja,fil,zh",680,pw,Melekeok,6255151
+Vietnam,Vietnam,VN,VNM,89571130,329560,VND,Dong,"vi,en,fr,zh,km",84,vn,Hanoi,6255147
+Thailand,Thailand,TH,THA,67089500,514000,THB,Baht,"th,en",66,th,Bangkok,6255147
+Indonesia,Indonesia,ID,IDN,242968342,1919440,IDR,Rupiah,"id,en,nl,jv",62,id,Jakarta,6255147
+Laos,Laos,LA,LAO,6368162,236800,LAK,Kip,"lo,fr,en",856,la,Vientiane,6255147
+Taiwan,Taiwan,TW,TWN,22894384,35980,TWD,Dollar,"zh-TW,zh,nan,hak",886,tw,Taipei,6255147
+Philippines,Philippines,PH,PHL,99900177,300000,PHP,Peso,"tl,en-PH,fil",63,ph,Manila,6255147
+Malaysia,Malaysia,MY,MYS,28274729,329750,MYR,Ringgit,"ms-MY,en,zh,ta,te,ml,pa,th",60,my,Kuala Lumpur,6255147
+China,China,CN,CHN,1330044000,9596960,CNY,Yuan Renminbi,"zh-CN,yue,wuu,dta,ug,za",86,cn,Beijing,6255147
+Hong Kong,Hong-Kong,HK,HKG,6898686,1092,HKD,Dollar,"zh-HK,yue,zh,en",852,hk,Hong Kong,6255147
+Brunei,Brunei,BN,BRN,395027,5770,BND,Dollar,"ms-BN,en-BN",673,bn,Bandar Seri Begawan,6255147
+Macao,Macao,MO,MAC,449198,254,MOP,Pataca,"zh,zh-MO,pt",853,mo,Macao,6255147
+Cambodia,Cambodia,KH,KHM,14453680,181040,KHR,Riels,"km,fr,en",855,kh,Phnom Penh,6255147
+South Korea,South-Korea,KR,KOR,48422644,98480,KRW,Won,"ko-KR,en",82,kr,Seoul,6255147
+Japan,Japan,JP,JPN,127288000,377835,JPY,Yen,ja,81,jp,Tokyo,6255147
+North Korea,North-Korea,KP,PRK,22912177,120540,KPW,Won,ko-KP,850,kp,Pyongyang,6255147
+Singapore,Singapore,SG,SGP,4701069,692,SGD,Dollar,"cmn,en-SG,ms-SG,ta-SG,zh-SG",65,sg,Singapore,6255147
+Cook Islands,Cook-Islands,CK,COK,21388,240,NZD,Dollar,"en-CK,mi",682,ck,Avarua,6255151
+East Timor,East-Timor,TL,TLS,1154625,15007,USD,Dollar,"tet,pt-TL,id,en",670,tl,Dili,6255151
+Russia,Russia,RU,RUS,140702000,17100000,RUB,Ruble,"ru,tt,xal,cau,ady,kv,ce,tyv,cv,udm,tut,mns,bua,myv,mdf,chm,ba,inh,tut,kbd,krc,ava,sah,nog",7,ru,Moscow,6255148
+Mongolia,Mongolia,MN,MNG,3086918,1565000,MNT,Tugrik,"mn,ru",976,mn,Ulan Bator,6255147
+Australia,Australia,AU,AUS,21515754,7686850,AUD,Dollar,en-AU,61,au,Canberra,6255151
+Christmas Island,Christmas-Island,CX,CXR,1500,135,AUD,Dollar,"en,zh,ms-CC",61,cx,Flying Fish Cove,6255147
+Marshall Islands,Marshall-Islands,MH,MHL,65859,181,USD,Dollar,"mh,en-MH",692,mh,Majuro,6255151
+Micronesia,Micronesia,FM,FSM,107708,702,USD,Dollar,"en-FM,chk,pon,yap,kos,uli,woe,nkr,kpg",691,fm,Palikir,6255151
+Papua New Guinea,Papua-New-Guinea,PG,PNG,6064515,462840,PGK,Kina,"en-PG,ho,meu,tpi",675,pg,Port Moresby,6255151
+Solomon Islands,Solomon-Islands,SB,SLB,559198,28450,SBD,Dollar,"en-SB,tpi",677,sb,Honiara,6255151
+Tuvalu,Tuvalu,TV,TUV,10472,26,AUD,Dollar,"tvl,en,sm,gil",688,tv,Funafuti,6255151
+Nauru,Nauru,NR,NRU,10065,21,AUD,Dollar,"na,en-NR",674,nr,Yaren,6255151
+Vanuatu,Vanuatu,VU,VUT,221552,12200,VUV,Vatu,"bi,en-VU,fr-VU",678,vu,Port Vila,6255151
+New Caledonia,New-Caledonia,NC,NCL,216494,19060,XPF,Franc,fr-NC,687,nc,Noumea,6255151
+Norfolk Island,Norfolk-Island,NF,NFK,1828,34,AUD,Dollar,en-NF,672,nf,Kingston,6255151
+New Zealand,New-Zealand,NZ,NZL,4252277,268680,NZD,Dollar,"en-NZ,mi",64,nz,Wellington,6255151
+Fiji,Fiji,FJ,FJI,875983,18270,FJD,Dollar,"en-FJ,fj",679,fj,Suva,6255151
+Libya,Libya,LY,LBY,6461454,1759540,LYD,Dinar,"ar-LY,it,en",218,ly,Tripoli,6255146
+Cameroon,Cameroon,CM,CMR,19294149,475440,XAF,Franc,"en-CM,fr-CM",237,cm,Yaounde,6255146
+Senegal,Senegal,SN,SEN,12323252,196190,XOF,Franc,"fr-SN,wo,fuc,mnk",221,sn,Dakar,6255146
+Republic of the Congo,Republic-of-the-Congo,CG,COG,3039126,342000,XAF,Franc,"fr-CG,kg,ln-CG",242,cg,Brazzaville,6255146
+Portugal,Portugal,PT,PRT,10676000,92391,EUR,Euro,"pt-PT,mwl",351,pt,Lisbon,6255148
+Liberia,Liberia,LR,LBR,3685076,111370,LRD,Dollar,en-LR,231,lr,Monrovia,6255146
+Ivory Coast,Ivory-Coast,CI,CIV,21058798,322460,XOF,Franc,fr-CI,225,ci,Yamoussoukro,6255146
+Ghana,Ghana,GH,GHA,24339838,239460,GHS,Cedi,"en-GH,ak,ee,tw",233,gh,Accra,6255146
+Equatorial Guinea,Equatorial-Guinea,GQ,GNQ,1014999,28051,XAF,Franc,"es-GQ,fr",240,gq,Malabo,6255146
+Nigeria,Nigeria,NG,NGA,154000000,923768,NGN,Naira,"en-NG,ha,yo,ig,ff",234,ng,Abuja,6255146
+Burkina Faso,Burkina-Faso,BF,BFA,16241811,274200,XOF,Franc,fr-BF,226,bf,Ouagadougou,6255146
+Togo,Togo,TG,TGO,6587239,56785,XOF,Franc,"fr-TG,ee,hna,kbp,dag,ha",228,tg,Lome,6255146
+Guinea-Bissau,Guinea-Bissau,GW,GNB,1565126,36120,XOF,Franc,"pt-GW,pov",245,gw,Bissau,6255146
+Mauritania,Mauritania,MR,MRT,3205060,1030700,MRO,Ouguiya,"ar-MR,fuc,snk,fr,mey,wo",222,mr,Nouakchott,6255146
+Benin,Benin,BJ,BEN,9056010,112620,XOF,Franc,fr-BJ,229,bj,Porto-Novo,6255146
+Gabon,Gabon,GA,GAB,1545255,267667,XAF,Franc,fr-GA,241,ga,Libreville,6255146
+Sierra Leone,Sierra-Leone,SL,SLE,5245695,71740,SLL,Leone,"en-SL,men,tem",232,sl,Freetown,6255146
+Sao Tome and Principe,Sao-Tome-and-Principe,ST,STP,175808,1001,STD,Dobra,pt-ST,239,st,Sao Tome,6255146
+Gibraltar,Gibraltar,GI,GIB,27884,6,GIP,Pound,"en-GI,es,it,pt",350,gi,Gibraltar,6255148
+Gambia,Gambia,GM,GMB,1593256,11300,GMD,Dalasi,"en-GM,mnk,wof,wo,ff",220,gm,Banjul,6255146
+Guinea,Guinea,GN,GIN,10324025,245857,GNF,Franc,fr-GN,224,gn,Conakry,6255146
+Chad,Chad,TD,TCD,10543464,1284000,XAF,Franc,"fr-TD,ar-TD,sre",235,td,N'Djamena,6255146
+Niger,Niger,NE,NER,15878271,1267000,XOF,Franc,"fr-NE,ha,kr,dje",227,ne,Niamey,6255146
+Mali,Mali,ML,MLI,13796354,1240000,XOF,Franc,"fr-ML,bm",223,ml,Bamako,6255146
+Western Sahara,Western-Sahara,EH,ESH,273008,266000,MAD,Dirham,"ar,mey",212,eh,El-Aaiun,6255146
+Tunisia,Tunisia,TN,TUN,10589025,163610,TND,Dinar,"ar-TN,fr",216,tn,Tunis,6255146
+Spain,Spain,ES,ESP,46505963,504782,EUR,Euro,"es-ES,ca,gl,eu,oc",34,es,Madrid,6255148
+Morocco,Morocco,MA,MAR,33848242,446550,MAD,Dirham,"ar-MA,ber,fr",212,ma,Rabat,6255146
+Malta,Malta,MT,MLT,403000,316,EUR,Euro,"mt,en-MT",356,mt,Valletta,6255148
+Algeria,Algeria,DZ,DZA,34586184,2381740,DZD,Dinar,ar-DZ,213,dz,Algiers,6255146
+Faroe Islands,Faroe-Islands,FO,FRO,48228,1399,DKK,Krone,"fo,da-FO",298,fo,Torshavn,6255148
+Denmark,Denmark,DK,DNK,5484000,43094,DKK,Krone,"da-DK,en,fo,de-DK",45,dk,Copenhagen,6255148
+Iceland,Iceland,IS,ISL,308910,103000,ISK,Krona,"is,en,de,da,sv,no",354,is,Reykjavik,6255148
+United Kingdom,United-Kingdom,GB,GBR,62348447,244820,GBP,Pound,"en-GB,cy-GB,gd",44,uk,London,6255148
+Switzerland,Switzerland,CH,CHE,7581000,41290,CHF,Franc,"de-CH,fr-CH,it-CH,rm",41,ch,Bern,6255148
+Sweden,Sweden,SE,SWE,9828655,449964,SEK,Krona,"sv-SE,se,sma,fi-SE",46,se,Stockholm,6255148
+Netherlands,Netherlands,NL,NLD,16645000,41526,EUR,Euro,"nl-NL,fy-NL",31,nl,Amsterdam,6255148
+Austria,Austria,AT,AUT,8205000,83858,EUR,Euro,"de-AT,hr,hu,sl",43,at,Vienna,6255148
+Belgium,Belgium,BE,BEL,10403000,30510,EUR,Euro,"nl-BE,fr-BE,de-BE",32,be,Brussels,6255148
+Germany,Germany,DE,DEU,81802257,357021,EUR,Euro,de,49,de,Berlin,6255148
+Luxembourg,Luxembourg,LU,LUX,497538,2586,EUR,Euro,"lb,de-LU,fr-LU",352,lu,Luxembourg,6255148
+Ireland,Ireland,IE,IRL,4622917,70280,EUR,Euro,"en-IE,ga-IE",353,ie,Dublin,6255148
+Monaco,Monaco,MC,MCO,32965,1,EUR,Euro,"fr-MC,en,it",377,mc,Monaco,6255148
+France,France,FR,FRA,64768389,547030,EUR,Euro,"fr-FR,frp,br,co,ca,eu,oc",33,fr,Paris,6255148
+Andorra,Andorra,AD,AND,84000,468,EUR,Euro,ca,376,ad,Andorra la Vella,6255148
+Liechtenstein,Liechtenstein,LI,LIE,35000,160,CHF,Franc,de-LI,423,li,Vaduz,6255148
+Jersey,Jersey,JE,JEY,90812,116,GBP,Pound,"en,pt",-1490,je,Saint Helier,6255148
+Isle of Man,Isle-of-Man,IM,IMN,75049,572,GBP,Pound,"en,gv",-1580,im,Douglas,6255148
+Guernsey,Guernsey,GG,GGY,65228,78,GBP,Pound,"en,fr",-1437,gg,St Peter Port,6255148
+Slovakia,Slovakia,SK,SVK,5455000,48845,EUR,Euro,"sk,hu",421,sk,Bratislava,6255148
+Czechia,Czechia,CZ,CZE,10476000,78866,CZK,Koruna,"cs,sk",420,cz,Prague,6255148
+Norway,Norway,NO,NOR,5009150,324220,NOK,Krone,"no,nb,nn,se,fi",47,no,Oslo,6255148
+Vatican,Vatican,VA,VAT,921,0,EUR,Euro,"la,it,fr",379,va,Vatican City,6255148
+San Marino,San-Marino,SM,SMR,31477,61,EUR,Euro,it-SM,378,sm,San Marino,6255148
+Italy,Italy,IT,ITA,60340328,301230,EUR,Euro,"it-IT,de-IT,fr-IT,sc,ca,co,sl",39,it,Rome,6255148
+Slovenia,Slovenia,SI,SVN,2007000,20273,EUR,Euro,"sl,sh",386,si,Ljubljana,6255148
+Montenegro,Montenegro,ME,MNE,666730,14026,EUR,Euro,"sr,hu,bs,sq,hr,rom",382,me,Podgorica,6255148
+Croatia,Croatia,HR,HRV,4284889,56542,HRK,Kuna,"hr-HR,sr",385,hr,Zagreb,6255148
+Bosnia and Herzegovina,Bosnia-and-Herzegovina,BA,BIH,4590000,51129,BAM,Marka,"bs,hr-BA,sr-BA",387,ba,Sarajevo,6255148
+Angola,Angola,AO,AGO,13068161,1246700,AOA,Kwanza,pt-AO,244,ao,Luanda,6255146
+Namibia,Namibia,NA,NAM,2128471,825418,NAD,Dollar,"en-NA,af,de,hz,naq",264,na,Windhoek,6255146
+Saint Helena,Saint-Helena,SH,SHN,7460,410,SHP,Pound,en-SH,290,sh,Jamestown,6255146
+Bouvet Island,Bouvet-Island,BV,BVT,0,49,NOK,Krone,'','',bv,'',6255152
+Barbados,Barbados,BB,BRB,285653,431,BBD,Dollar,en-BB,-245,bb,Bridgetown,6255149
+Cape Verde,Cape-Verde,CV,CPV,508659,4033,CVE,Escudo,pt-CV,238,cv,Praia,6255146
+Guyana,Guyana,GY,GUY,748486,214970,GYD,Dollar,en-GY,592,gy,Georgetown,6255150
+French Guiana,French-Guiana,GF,GUF,195506,91000,EUR,Euro,fr-GF,594,gf,Cayenne,6255150
+Suriname,Suriname,SR,SUR,492829,163270,SRD,Dollar,"nl-SR,en,srn,hns,jv",597,sr,Paramaribo,6255150
+Saint Pierre and Miquelon,Saint-Pierre-and-Miquelon,PM,SPM,7012,242,EUR,Euro,fr-PM,508,pm,Saint-Pierre,6255149
+Greenland,Greenland,GL,GRL,56375,2166086,DKK,Krone,"kl,da-GL,en",299,gl,Nuuk,6255149
+Paraguay,Paraguay,PY,PRY,6375830,406750,PYG,Guarani,"es-PY,gn",595,py,Asuncion,6255150
+Uruguay,Uruguay,UY,URY,3477000,176220,UYU,Peso,es-UY,598,uy,Montevideo,6255150
+Brazil,Brazil,BR,BRA,201103330,8511965,BRL,Real,"pt-BR,es,en,fr",55,br,Brasilia,6255150
+Falkland Islands,Falkland-Islands,FK,FLK,2638,12173,FKP,Pound,en-FK,500,fk,Stanley,6255150
+South Georgia and the South Sandwich Islands,South-Georgia-and-the-South-Sandwich-Islands,GS,SGS,30,3903,GBP,Pound,en,'',gs,Grytviken,6255152
+Jamaica,Jamaica,JM,JAM,2847232,10991,JMD,Dollar,en-JM,-875,jm,Kingston,6255149
+Dominican Republic,Dominican-Republic,DO,DOM,9823821,48730,DOP,Peso,es-DO,+1-809 and 1-829,do,Santo Domingo,6255149
+Cuba,Cuba,CU,CUB,11423000,110860,CUP,Peso,es-CU,53,cu,Havana,6255149
+Martinique,Martinique,MQ,MTQ,432900,1100,EUR,Euro,fr-MQ,596,mq,Fort-de-France,6255149
+Bahamas,Bahamas,BS,BHS,301790,13940,BSD,Dollar,en-BS,-241,bs,Nassau,6255149
+Bermuda,Bermuda,BM,BMU,65365,53,BMD,Dollar,"en-BM,pt",-440,bm,Hamilton,6255149
+Anguilla,Anguilla,AI,AIA,13254,102,XCD,Dollar,en-AI,-263,ai,The Valley,6255149
+Trinidad and Tobago,Trinidad-and-Tobago,TT,TTO,1228691,5128,TTD,Dollar,"en-TT,hns,fr,es,zh",-867,tt,Port of Spain,6255149
+Saint Kitts and Nevis,Saint-Kitts-and-Nevis,KN,KNA,51134,261,XCD,Dollar,en-KN,-868,kn,Basseterre,6255149
+Dominica,Dominica,DM,DMA,72813,754,XCD,Dollar,en-DM,-766,dm,Roseau,6255149
+Antigua and Barbuda,Antigua-and-Barbuda,AG,ATG,86754,443,XCD,Dollar,en-AG,-267,ag,St. John's,6255149
+Saint Lucia,Saint-Lucia,LC,LCA,160922,616,XCD,Dollar,en-LC,-757,lc,Castries,6255149
+Turks and Caicos Islands,Turks-and-Caicos-Islands,TC,TCA,20556,430,USD,Dollar,en-TC,-648,tc,Cockburn Town,6255149
+Aruba,Aruba,AW,ABW,71566,193,AWG,Guilder,"nl-AW,es,en",297,aw,Oranjestad,6255149
+British Virgin Islands,British-Virgin-Islands,VG,VGB,21730,153,USD,Dollar,en-VG,-283,vg,Road Town,6255149
+Saint Vincent and the Grenadines,Saint-Vincent-and-the-Grenadines,VC,VCT,104217,389,XCD,Dollar,"en-VC,fr",-783,vc,Kingstown,6255149
+Montserrat,Montserrat,MS,MSR,9341,102,XCD,Dollar,en-MS,-663,ms,Plymouth,6255149
+Saint Martin,Saint-Martin,MF,MAF,35925,53,EUR,Euro,fr,590,gp,Marigot,6255149
+Saint Barthelemy,Saint-Barthelemy,BL,BLM,8450,21,EUR,Euro,fr,590,gp,Gustavia,6255149
+Guadeloupe,Guadeloupe,GP,GLP,443000,1780,EUR,Euro,fr-GP,590,gp,Basse-Terre,6255149
+Grenada,Grenada,GD,GRD,107818,344,XCD,Dollar,en-GD,-472,gd,St. George's,6255149
+Cayman Islands,Cayman-Islands,KY,CYM,44270,262,KYD,Dollar,en-KY,-344,ky,George Town,6255149
+Belize,Belize,BZ,BLZ,314522,22966,BZD,Dollar,"en-BZ,es",501,bz,Belmopan,6255149
+El Salvador,El-Salvador,SV,SLV,6052064,21040,USD,Dollar,es-SV,503,sv,San Salvador,6255149
+Guatemala,Guatemala,GT,GTM,13550440,108890,GTQ,Quetzal,es-GT,502,gt,Guatemala City,6255149
+Honduras,Honduras,HN,HND,7989415,112090,HNL,Lempira,es-HN,504,hn,Tegucigalpa,6255149
+Nicaragua,Nicaragua,NI,NIC,5995928,129494,NIO,Cordoba,"es-NI,en",505,ni,Managua,6255149
+Costa Rica,Costa-Rica,CR,CRI,4516220,51100,CRC,Colon,"es-CR,en",506,cr,San Jose,6255149
+Venezuela,Venezuela,VE,VEN,27223228,912050,VEF,Bolivar,es-VE,58,ve,Caracas,6255150
+Ecuador,Ecuador,EC,ECU,14790608,283560,USD,Dollar,es-EC,593,ec,Quito,6255150
+Colombia,Colombia,CO,COL,47790000,1138910,COP,Peso,es-CO,57,co,Bogota,6255150
+Panama,Panama,PA,PAN,3410676,78200,PAB,Balboa,"es-PA,en",507,pa,Panama City,6255149
+Haiti,Haiti,HT,HTI,9648924,27750,HTG,Gourde,"ht,fr-HT",509,ht,Port-au-Prince,6255149
+Argentina,Argentina,AR,ARG,41343201,2766890,ARS,Peso,"es-AR,en,it,de,fr,gn",54,ar,Buenos Aires,6255150
+Chile,Chile,CL,CHL,16746491,756950,CLP,Peso,es-CL,56,cl,Santiago,6255150
+Bolivia,Bolivia,BO,BOL,9947418,1098580,BOB,Boliviano,"es-BO,qu,ay",591,bo,Sucre,6255150
+Peru,Peru,PE,PER,29907003,1285220,PEN,Sol,"es-PE,qu,ay",51,pe,Lima,6255150
+Mexico,Mexico,MX,MEX,112468855,1972550,MXN,Peso,es-MX,52,mx,Mexico City,6255149
+French Polynesia,French-Polynesia,PF,PYF,270485,4167,XPF,Franc,"fr-PF,ty",689,pf,Papeete,6255151
+Pitcairn,Pitcairn,PN,PCN,46,47,NZD,Dollar,en-PN,870,pn,Adamstown,6255151
+Kiribati,Kiribati,KI,KIR,92533,811,AUD,Dollar,"en-KI,gil",686,ki,Tarawa,6255151
+Tokelau,Tokelau,TK,TKL,1466,10,NZD,Dollar,"tkl,en-TK",690,tk,'',6255151
+Tonga,Tonga,TO,TON,122580,748,TOP,Pa'anga,"to,en-TO",676,to,Nuku'alofa,6255151
+Wallis and Futuna,Wallis-and-Futuna,WF,WLF,16025,274,XPF,Franc,"wls,fud,fr-WF",681,wf,Mata Utu,6255151
+Samoa,Samoa,WS,WSM,192001,2944,WST,Tala,"sm,en-WS",685,ws,Apia,6255151
+Niue,Niue,NU,NIU,2166,260,NZD,Dollar,"niu,en-NU",683,nu,Alofi,6255151
+Northern Mariana Islands,Northern-Mariana-Islands,MP,MNP,53883,477,USD,Dollar,"fil,tl,zh,ch-MP,en-MP",-669,mp,Saipan,6255151
+Guam,Guam,GU,GUM,159358,549,USD,Dollar,"en-GU,ch-GU",-670,gu,Hagatna,6255151
+Puerto Rico,Puerto-Rico,PR,PRI,3916632,9104,USD,Dollar,"en-PR,es-PR",+1-787 and 1-939,pr,San Juan,6255149
+U.S. Virgin Islands,U.S.-Virgin-Islands,VI,VIR,108708,352,USD,Dollar,en-VI,-339,vi,Charlotte Amalie,6255149
+United States Minor Outlying Islands,United-States-Minor-Outlying-Islands,UM,UMI,0,0,USD,Dollar ,en-UM,1,um,'',6255151
+American Samoa,American-Samoa,AS,ASM,57881,199,USD,Dollar,"en-AS,sm,to",-683,as,Pago Pago,6255151
+Canada,Canada,CA,CAN,33679000,9984670,CAD,Dollar,"en-CA,fr-CA,iu",1,ca,Ottawa,6255149
+United States,United-States,US,USA,310232863,9629091,USD,Dollar,"en-US,es-US,haw,fr",1,us,Washington,6255149
+Palestinian Territory,Palestinian-Territory,PS,PSE,3800000,5970,ILS,Shekel,ar-PS,970,ps,East Jerusalem,6255147
+Serbia,Serbia,RS,SRB,7344847,88361,RSD,Dinar,"sr,hu,bs,rom",381,rs,Belgrade,6255148
+Antarctica,Antarctica,AQ,ATA,0,14000000,'','','','',aq,'',6255152
+Sint Maarten,Sint-Maarten,SX,SXM,37429,21,ANG,Guilder,"nl,en",599,sx,Philipsburg,6255149
+Curacao,Curacao,CW,CUW,141766,444,ANG,Guilder,"nl,pap",599,cw, Willemstad,6255149
+"Bonaire, Saint Eustatius and Saba ",Bonaire-Saint-Eustatius-and-Saba,BQ,BES,18012,328,USD,Dollar,"nl,pap,en",599,bq,'',6255149
+South Sudan,South-Sudan,SS,SSD,8260490,644329,SSP,Pound,en,211,'',Juba,6255146

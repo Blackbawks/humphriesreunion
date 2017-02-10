@@ -1,0 +1,12 @@
+datetime
+TimeFrame
+TimeFrameManagerAdded
+TimeFramedModel
+unicode_literals
+QueryManager
+TimeFramedModelTests
+TimeFrameManagerAddedTests
+models
+TestCase
+timedelta
+ImproperlyConfigured

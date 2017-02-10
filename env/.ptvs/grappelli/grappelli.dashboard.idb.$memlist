@@ -1,0 +1,14 @@
+DefaultIndexDashboard
+registry
+dashboards
+default_app_config
+get_admin_site_name
+apps
+utils
+modules
+Dashboard
+templatetags
+Registry
+autodiscover
+register
+management

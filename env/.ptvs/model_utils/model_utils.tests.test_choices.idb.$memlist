@@ -1,0 +1,6 @@
+ChoicesTests
+IdentifierChoicesTests
+LabelChoicesTests
+unicode_literals
+TestCase
+Choices
